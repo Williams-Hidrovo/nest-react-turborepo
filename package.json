@@ -1,0 +1,19 @@
+{
+  "name": "nest-react-turborepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": " turbo dev",
+    "build": "turbo build",
+    "start": "node .\\apps\\api\\dist\\main.js"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "yarn@1.22.22"
+}
